@@ -1,8 +1,27 @@
 aid: meal-planet-holding-ltd
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/meal-planet-holding-ltd.png
 name: MEAL PLANET HOLDING LTD
-description: MEAL PLANET HOLDING LTD is a company surfaced as a portfolio company of 500-global and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  MealPlanet (MEAL PLANET HOLDING LTD) is a UAE-based foodtech company, founded in 2024 by Khalid
+  Baareh, that operates a meal-plan aggregation marketplace. Its consumer mobile app lets customers
+  browse, compare, and subscribe to more than 500 personalised meal plans from 100+ trusted brands
+  across the UAE, filtering by goal, calories, and dietary preferences, with flexible delivery and
+  nutrition tracking. In 2024 the company closed a $6M seed round led by Middle East Venture Partners
+  (MEVP) with participation from Sanabil 500 (the Sanabil Accelerator by 500 Global), AlTouq Group,
+  Faith Capital, and Alturki Ventures, funding regional expansion beginning with Saudi Arabia.
+  MealPlanet is a consumer-facing platform and publishes no public developer API, SDK, or
+  documentation as of this enrichment pass.
 url: https://raw.githubusercontent.com/api-evangelist/meal-planet-holding-ltd/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,15 +31,38 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-apis: []
+- Foodtech
+- Meal Delivery
+- Meal Plans
+- Marketplace
+- Subscription
+- Consumer App
+- UAE
+- Food
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+apis: []
 common:
+- type: DomainSecurity
+  url: security/meal-planet-holding-ltd-domain-security.yml
 - type: Website
   url: https://mealplanet.com
+- type: SignUp
+  url: https://mealplanet.go.link/7GSa1
+- type: Support
+  url: https://www.mealplanet.com/contact-us/
+- type: TermsOfService
+  url: https://www.mealplanet.com/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://www.mealplanet.com/privacy-policy/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
