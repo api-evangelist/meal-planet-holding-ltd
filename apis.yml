@@ -22,7 +22,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/meal-planet-holding-ltd.png
-name: MEAL PLANET HOLDING LTD
+name: MEAL PLANET
 description: >-
   MealPlanet (MEAL PLANET HOLDING LTD) is a UAE-based foodtech company, founded in 2024 by Khalid
   Baareh, that operates a meal-plan aggregation marketplace. Its consumer mobile app lets customers
@@ -87,3 +87,4 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-legal-name: MEAL PLANET HOLDING LTD
